@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="65">
+   <author>GtX</author>
+
+   <version>1.0.0.0</version>
+
+    <title>
+        <en>Limited Pallets Fix</en>
+        <de>Begrenzte Palettenkorrektur</de>
+        <fr>Correction De La Palette Limitée</fr>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[Removes the pallet limit added with game patch 1.4.0.0
+
+To ensure performance is not impacted it is still recommended to not exceed more than a few hundred pallets as they are effectively each a vehicle.
+
+For the latest release please visit the Github repository: https://github.com/GtX-Andy/limitedPalletsFix/releases
+]]>
+        </en>
+        <de>
+            <![CDATA[Entfernt das mit Spielpatch 1.4.0.0 hinzugefügte Palettenlimit
+
+Um sicherzustellen, dass die Leistung nicht beeinträchtigt wird, wird dennoch empfohlen, nicht mehr als ein paar hundert Paletten zu überschreiten, da es sich praktisch jeweils um ein Fahrzeug handelt.
+
+Für die neueste Version besuchen Sie bitte das Github-Repository: https://github.com/GtX-Andy/limitedPalletsFix/releases
+]]>
+        </de>
+        <fr>
+            <![CDATA[Supprime la limite de palette ajoutée avec le patch de jeu 1.4.0.0
+
+Pour s'assurer que les performances ne sont pas affectées, il est toujours recommandé de ne pas dépasser plus de quelques centaines de palettes car elles sont en fait chacune un véhicule.
+
+Pour la dernière version, veuillez visiter le référentiel Github: https://github.com/GtX-Andy/limitedPalletsFix/releases
+]]>
+        </fr>
+    </description>
+
+    <multiplayer supported="true"/>
+    <iconFilename>icon.dds</iconFilename>
+
+    <extraSourceFiles>
+        <sourceFile filename="LimitedPalletObjectFix.lua" />
+    </extraSourceFiles>
+</modDesc>
